@@ -17,7 +17,13 @@ Do the following:
 
    HINT: no function required
 */
-
+const votingAge = 21
+if(votingAge >= 18){
+  console.log('true');
+}
+else if(votingAge < 18){
+  console.log('false');
+}
 
 
 /*
